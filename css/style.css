@@ -50,12 +50,12 @@ p {
 }
 
 .quotes {
-    font-size: 35px;
-    padding: 10px;
+    font-size: 69px;
+    padding-right: 20px;
 }
 
 button {
-    padding: 16px 77px;
+    padding: 16px 70px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -68,6 +68,7 @@ button {
     background-color: white; 
     color: #EAA258; 
     border: 2px solid #EAA258;
+    letter-spacing: 5px;
 }
 
 .yellow-buuton:hover {
