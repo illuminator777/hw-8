@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dad8d8;
+}
+
+.container {
+    background-color: #ffffff;
+    margin: 70px;
+}
+
+.wrapper {
+    padding: 100px;
+}
+
+h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.60);  
+    font-family: Lato;
+    margin: 32px 0;
+    line-height: 32px;
+}
+
+.t-lettr::first-letter {
+    color: #000000;
+    font-size: 73px;
+    display: block;
+    float: left;
+    padding: 10px 16px 10px 0;
+    font-family: Playfair Display;
+}
+
+.family-pd {
+    font-family: Playfair Display;
+}
+
+.family-lato {
+    font-family: Lato;
+}
+
+.size-larger {
+    font-size: 22px;
+}
+
+.quotes {
+    font-size: 69px;
+    padding-right: 20px;
+}
+
+button {
+    padding: 16px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.yellow-buuton {
+    background-color: white; 
+    color: #EAA258; 
+    border: 2px solid #EAA258;
+    letter-spacing: 5px;
+}
+
+.yellow-buuton:hover {
+    background-color: #EAA258;
+    color: white;
+  }
